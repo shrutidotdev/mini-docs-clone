@@ -9,7 +9,7 @@ const DocumentIdPage = async ({ params} : DocumentIdPageProps ) => {
     console.log(documentId);
   return (
     
-    <div className="min-h-screen bg-[#FAFBFD] flex flex-col gap-36 ">  
+    <div className="min-h-screen bg-[#FAFBFD] flex flex-col  ">  
       <Toolbar />
       <Editor />
     </div>
